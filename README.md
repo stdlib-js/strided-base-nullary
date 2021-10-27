@@ -76,16 +76,14 @@ The `shape` and `strides` parameters determine which elements in the strided out
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var floor = require( '@stdlib/math-base-special-floor' );
 
 function fill() {
     return 3.0;
 }
 
 var x = new Float64Array( [ -1.0, -2.0, -3.0, -4.0, -5.0, -6.0 ] );
-var N = floor( x.length / 2 );
 
-nullary( [ x ], [ N ], [ -1 ], fill );
+nullary( [ x ], [ 3 ], [ -1 ], fill );
 // x => <Float64Array>[ 3.0, 3.0, 3.0, -4.0, -5.0, -6.0 ]
 ```
 
@@ -93,7 +91,6 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var floor = require( '@stdlib/math-base-special-floor' );
 
 function fill() {
     return 3.0;
@@ -105,10 +102,8 @@ var x0 = new Float64Array( [ -1.0, -2.0, -3.0, -4.0, -5.0, -6.0 ] );
 // Create offset views...
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var N = floor( x0.length / 2 );
-
-nullary( [ x1 ], [ N ], [ 1 ], fill );
-// x0 => <Float64Array>[ -1.0, 3.0, -3.0, 3.0, -5.0, 3.0 ]
+nullary( [ x1 ], [ 3 ], [ 1 ], fill );
+// x0 => <Float64Array>[ -1.0, 3.0, 3.0, 3.0, -5.0, -6.0 ]
 ```
 
 #### nullary.ndarray( arrays, shape, strides, offsets, fcn )
@@ -136,16 +131,14 @@ While [`typed array`][mdn-typed-array] views mandate a view offset based on the 
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var floor = require( '@stdlib/math-base-special-floor' );
 
 function fill() {
     return 3.0;
 }
 
 var x = new Float64Array( [ -1.0, -2.0, -3.0, -4.0, -5.0, -6.0 ] );
-var N = floor( x.length / 2 );
 
-nullary.ndarray( [ x ], [ N ], [ -1 ], [ x.length-1 ], fill );
+nullary.ndarray( [ x ], [ 3 ], [ -1 ], [ x.length-1 ], fill );
 // x => <Float64Array>[ -1.0, -2.0, -3.0, 3.0, 3.0, 3.0 ]
 ```
 
@@ -170,12 +163,10 @@ var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filledarray = require( '@stdlib/array-filled' );
 var nullary = require( '@stdlib/strided-base-nullary' );
 
-var N = 10;
-
-var x = filledarray( 0.0, N, 'generic' );
+var x = filledarray( 0.0, 10, 'generic' );
 console.log( x );
 
-var shape = [ N ];
+var shape = [ x.length ];
 var strides = [ 1 ];
 var offsets = [ 0 ];
 
@@ -186,6 +177,16 @@ console.log( x );
 </section>
 
 <!-- /.examples -->
+
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
 <section class="main-repo" >
