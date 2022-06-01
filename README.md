@@ -30,30 +30,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/strided-base-nullary
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var nullary = require( '@stdlib/strided-base-nullary' );
+nullary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@umd/browser.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.nullary;
+})();
+</script>
 ```
 
 #### nullary( arrays, shape, strides, fcn )
@@ -166,8 +168,13 @@ nullary.ndarray( [ x ], [ 3 ], [ -1 ], [ x.length-1 ], fill );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {.factory;
 var filledarray = require( '@stdlib/array-filled' );
 var nullary = require( '@stdlib/strided-base-nullary' );
 
@@ -180,6 +187,11 @@ var offsets = [ 0 ];
 
 nullary.ndarray( [ x ], shape, strides, offsets, discreteUniform( -100, 100 ) );
 console.log( x );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
