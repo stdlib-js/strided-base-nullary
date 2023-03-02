@@ -2310,7 +2310,7 @@ int main() {
     // Print the contents of the output array:
     uint8_t *op1 = out;
     for ( int64_t i = 0; i < shape[0]; i++, op1 += strides[0] ) {
-        const double v = *(double *)op1; // cppcheck-suppress invalidPointerCast
+        const double v = *(double *)op1;
         printf( "out[ %"PRId64" ] = %lf\n", i, v );
     }
 }
@@ -2385,7 +2385,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
