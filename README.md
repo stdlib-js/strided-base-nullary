@@ -280,7 +280,7 @@ y[ i ] = (float)out;
 
 <!-- loops -->
 
-#### stdlib_strided_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -319,7 +319,7 @@ The function accepts the following arguments:
 void stdlib_strided_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_c( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_c( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -359,7 +359,7 @@ The function accepts the following arguments:
 void stdlib_strided_c( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_c_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_c_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -398,7 +398,7 @@ The function accepts the following arguments:
 void stdlib_strided_c_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_c_as_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_c_as_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -437,7 +437,7 @@ The function accepts the following arguments:
 void stdlib_strided_c_as_f( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_c_as_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_c_as_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -476,7 +476,7 @@ The function accepts the following arguments:
 void stdlib_strided_c_as_k( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_c_as_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_c_as_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -515,7 +515,7 @@ The function accepts the following arguments:
 void stdlib_strided_c_as_s( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_c_as_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_c_as_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -554,7 +554,7 @@ The function accepts the following arguments:
 void stdlib_strided_c_as_t( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_c_as_z( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_c_as_z( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -594,7 +594,7 @@ The function accepts the following arguments:
 void stdlib_strided_c_as_z( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -633,7 +633,7 @@ The function accepts the following arguments:
 void stdlib_strided_d( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -672,7 +672,7 @@ The function accepts the following arguments:
 void stdlib_strided_d_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d_as_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d_as_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -711,7 +711,7 @@ The function accepts the following arguments:
 void stdlib_strided_d_as_f( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d_as_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d_as_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -750,7 +750,7 @@ The function accepts the following arguments:
 void stdlib_strided_d_as_i( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d_as_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d_as_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -789,7 +789,7 @@ The function accepts the following arguments:
 void stdlib_strided_d_as_k( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d_as_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d_as_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -828,7 +828,7 @@ The function accepts the following arguments:
 void stdlib_strided_d_as_s( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d_as_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d_as_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -867,7 +867,7 @@ The function accepts the following arguments:
 void stdlib_strided_d_as_t( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_d_as_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_d_as_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -906,7 +906,7 @@ The function accepts the following arguments:
 void stdlib_strided_d_as_u( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -945,7 +945,7 @@ The function accepts the following arguments:
 void stdlib_strided_f( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_f_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_f_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -984,7 +984,7 @@ The function accepts the following arguments:
 void stdlib_strided_f_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_f_as_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_f_as_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1023,7 +1023,7 @@ The function accepts the following arguments:
 void stdlib_strided_f_as_d( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_f_as_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_f_as_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1062,7 +1062,7 @@ The function accepts the following arguments:
 void stdlib_strided_f_as_k( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_f_as_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_f_as_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1101,7 +1101,7 @@ The function accepts the following arguments:
 void stdlib_strided_f_as_s( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_f_as_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_f_as_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1140,7 +1140,7 @@ The function accepts the following arguments:
 void stdlib_strided_f_as_t( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1179,7 +1179,7 @@ The function accepts the following arguments:
 void stdlib_strided_i( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_i_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_i_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1218,7 +1218,7 @@ The function accepts the following arguments:
 void stdlib_strided_i_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_i_as_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_i_as_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1257,7 +1257,7 @@ The function accepts the following arguments:
 void stdlib_strided_i_as_k( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_i_as_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_i_as_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1296,7 +1296,7 @@ The function accepts the following arguments:
 void stdlib_strided_i_as_s( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_i_as_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_i_as_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1335,7 +1335,7 @@ The function accepts the following arguments:
 void stdlib_strided_i_as_t( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1374,7 +1374,7 @@ The function accepts the following arguments:
 void stdlib_strided_k( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_k_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_k_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1413,7 +1413,7 @@ The function accepts the following arguments:
 void stdlib_strided_k_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_k_as_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_k_as_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1452,7 +1452,7 @@ The function accepts the following arguments:
 void stdlib_strided_k_as_s( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1491,7 +1491,7 @@ The function accepts the following arguments:
 void stdlib_strided_s( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1530,7 +1530,7 @@ The function accepts the following arguments:
 void stdlib_strided_t( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_t_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_t_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1569,7 +1569,7 @@ The function accepts the following arguments:
 void stdlib_strided_t_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1608,7 +1608,7 @@ The function accepts the following arguments:
 void stdlib_strided_u( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_u_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_u_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1647,7 +1647,7 @@ The function accepts the following arguments:
 void stdlib_strided_u_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_u_as_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_u_as_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1686,7 +1686,7 @@ The function accepts the following arguments:
 void stdlib_strided_u_as_t( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1726,7 +1726,7 @@ The function accepts the following arguments:
 void stdlib_strided_z( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1765,7 +1765,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_b( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_c( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_c( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1805,7 +1805,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_c( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1844,7 +1844,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_d( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1883,7 +1883,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_f( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1922,7 +1922,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_i( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -1961,7 +1961,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_k( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -2000,7 +2000,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_s( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -2039,7 +2039,7 @@ The function accepts the following arguments:
 void stdlib_strided_z_as_t( uint8_t *arrays[], const int64_t *shape, const int64_t *strides, void *fcn );
 ```
 
-#### stdlib_strided_z_as_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_strided_z_as_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a nullary callback and assigns results to elements in a strided output array.
 
@@ -2339,6 +2339,16 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/strided-base/binary`][@stdlib/strided/base/binary]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in strided input arrays and assign results to elements in a strided output array.</span>
+-   <span class="package-name">[`@stdlib/strided-base/quaternary`][@stdlib/strided/base/quaternary]</span><span class="delimiter">: </span><span class="description">apply a quaternary callback to strided input array elements and assign results to elements in a strided output array.</span>
+-   <span class="package-name">[`@stdlib/strided-base/quinary`][@stdlib/strided/base/quinary]</span><span class="delimiter">: </span><span class="description">apply a quinary callback to strided input array elements and assign results to elements in a strided output array.</span>
+-   <span class="package-name">[`@stdlib/strided-base/ternary`][@stdlib/strided/base/ternary]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to strided input array elements and assign results to elements in a strided output array.</span>
+-   <span class="package-name">[`@stdlib/strided-base/unary`][@stdlib/strided/base/unary]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a strided input array and assign results to elements in a strided output array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -2413,6 +2423,20 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-base-nullary/main/LICENSE
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/strided/base/binary]: https://github.com/stdlib-js/strided-base-binary
+
+[@stdlib/strided/base/quaternary]: https://github.com/stdlib-js/strided-base-quaternary
+
+[@stdlib/strided/base/quinary]: https://github.com/stdlib-js/strided-base-quinary
+
+[@stdlib/strided/base/ternary]: https://github.com/stdlib-js/strided-base-ternary
+
+[@stdlib/strided/base/unary]: https://github.com/stdlib-js/strided-base-unary
+
+<!-- </related-links> -->
 
 </section>
 
