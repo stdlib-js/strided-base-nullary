@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@deno/mod.js';
+import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@v0.2.1-deno/mod.js';
 ```
 
 #### nullary( arrays, shape, strides, fcn )
@@ -170,7 +170,7 @@ nullary.ndarray( [ x ], [ 3 ], [ -1 ], [ x.length-1 ], fill );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
-import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@deno/mod.js';
+import nullary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-nullary@v0.2.1-deno/mod.js';
 
 var x = filledarray( 0.0, 10, 'generic' );
 console.log( x );
