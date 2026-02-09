@@ -43,7 +43,7 @@
     "@stdlib/array-base-accessor-setter": "^0.2.3",
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.3",
     "@stdlib/array-base-setter": "^0.2.3",
-    "@stdlib/array-dtype": "^0.3.0",
+    "@stdlib/array-dtype": "^0.3.1",
     "@stdlib/complex-float32-ctor": "^0.1.1",
     "@stdlib/complex-float64-ctor": "^0.1.2",
     "@stdlib/strided-base-stride2offset": "^0.1.1",
@@ -52,8 +52,8 @@
     "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
-    "@stdlib/array-complex64": "^0.3.1",
-    "@stdlib/array-filled": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.2",
+    "@stdlib/array-filled": "^0.3.1",
     "@stdlib/array-float32": "^0.2.3",
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/complex-float32-imag": "^0.1.2",
@@ -72,7 +72,7 @@
     "@stdlib/ndarray-base-dtype-desc": "^0.3.1",
     "@stdlib/ndarray-base-dtype2c": "^0.3.1",
     "@stdlib/ndarray-safe-casts": "^0.4.1",
-    "@stdlib/random-base-discrete-uniform": "^0.2.1",
+    "@stdlib/random-base-discrete-uniform": "^0.2.2",
     "@stdlib/strided-dtypes": "^0.3.1",
     "@stdlib/string-replace": "^0.2.3",
     "@stdlib/string-substring-after": "^0.2.3",
