@@ -74,6 +74,7 @@
     "@stdlib/ndarray-safe-casts": "^0.4.1",
     "@stdlib/random-base-discrete-uniform": "^0.2.2",
     "@stdlib/strided-dtypes": "^0.3.1",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/string-replace": "^0.2.3",
     "@stdlib/string-substring-after": "^0.2.3",
     "@stdlib/string-substring-before": "^0.2.3",
