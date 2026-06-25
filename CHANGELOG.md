@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`ae0704c`](https://github.com/stdlib-js/stdlib/commit/ae0704c8acf3023469ab02686154e26193a601cd) - **docs:** fix typo `PREMABLE` to `PREAMBLE` [(#13130)](https://github.com/stdlib-js/stdlib/pull/13130) _(by anee3)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`f7304bd`](https://github.com/stdlib-js/stdlib/commit/f7304bd6d7ffd88df213dff3b3ca5d380443dcfc) - **bench:** refactor to use string interpolation in `@stdlib/strided-base` [(#11449)](https://github.com/stdlib-js/stdlib/pull/11449) _(by Uday Kakade, Karan Anand)_
 
